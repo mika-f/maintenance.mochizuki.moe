@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recess-order",
+    "stylelint-config-styled-components",
+  ],
+  "processors": [
+    [
+      "stylelint-processor-styled-components",
+      {
+        "ignoreFiles": ["**/*.scss", "**/*.css"]
+      }
+    ]
+  ],
+  "rules": {
+    "declaration-empty-line-before": "never"
+  }
+}

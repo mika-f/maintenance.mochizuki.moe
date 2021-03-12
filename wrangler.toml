@@ -1,6 +1,6 @@
 name = "maintenance-mochizuki-moe"
 type = "webpack"
-account_id = ""
+account_id = "6eaad539757dc4a8c0ad702128830d73"
 workers_dev = true
 route = ""
 zone_id = ""
